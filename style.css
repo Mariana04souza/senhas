@@ -112,6 +112,38 @@ body{
     cursor: pointer;
 }
 
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100px;
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca{
+    height: 25%;
+    background-color: #e71b32;
+}
+
+.media{
+    width: 50px;
+    background-color: #faf408;
+}
+
+.forte{
+    width: 100%;
+    background-color: #00ff85;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
